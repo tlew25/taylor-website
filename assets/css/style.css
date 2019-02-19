@@ -1,42 +1,56 @@
-body{
-    margin-top: 75px;
+body {
+  margin-top: 75px;
+  background-color: #ce5c5c;
 }
-
-.navbar{
-   background-color: #232323;
+.navbar {
+  background-color: #ffffff;
 }
-#showcase .showcase-right{
-    margin-top: 80px;
+#showcase .showcase-right {
+  margin-top: 80px;
 }
-footer{
-    padding: 25px;
-    background-color: #232323;
-    color: #fff;
+footer {
+  padding: 25px;
+  background-color: #011a1d;
+  color: #fff;
 }
-.row{
-    margin-top: 140px;
-    margin-bottom: 355px;
+.row {
+  margin-top: 140px;
+  margin-bottom: 355px;
 }
 .responsive {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-    border: 5px solid #232323;
-  }
-  .responsive-2{
-    max-width: 100%;
-    height: auto;
-    border-radius: 5%;
-    border: 5px solid #232323;
-
-  }
-  .main-title{
-      text-align: center;
-    /* font-family: 'Josefin Slab', serif;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #011a1d;
+}
+.responsive-2 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5%;
+  border: 5px solid #011a1d;
+}
+.main-title {
+  text-align: center;
+  /* font-family: 'Josefin Slab', serif;
     font-family: 'Julius Sans One', sans-serif; */
-    font-family: 'Rock Salt', cursive;
-    /* font-family: 'Bungee', cursive; */
-  }
-  .navbar-brand, h2{
-    font-family: 'Rock Salt', cursive;
-  }
+  font-family: "Rock Salt", cursive;
+  /* font-family: 'Bungee', cursive; */
+}
+.navbar-brand,
+h2 {
+  font-family: "Rock Salt", cursive;
+}
+/* abt me words */
+.word-1 {
+  font-weight: bold;
+  font-size: 14pt;
+}
+.word-2 {
+  font-weight: bold;
+  font-size: 14pt;
+}
+.word-3 {
+  font-weight: bold;
+  font-size: 14pt;
+}
+/*  */
