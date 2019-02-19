@@ -37,6 +37,6 @@ footer{
     font-family: 'Rock Salt', cursive;
     /* font-family: 'Bungee', cursive; */
   }
-  .navbar-brand{
+  .navbar-brand, h2{
     font-family: 'Rock Salt', cursive;
   }
