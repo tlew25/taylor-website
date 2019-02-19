@@ -1,0 +1,41 @@
+body{
+    margin-top: 75px;
+}
+
+.navbar{
+   background-color: #232323;
+}
+#showcase .showcase-right{
+    margin-top: 80px;
+}
+footer{
+    padding: 25px;
+    background-color: #232323;
+    color: #fff;
+}
+.row{
+    margin-top: 140px;
+    margin-bottom: 355px;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #232323;
+  }
+  .responsive-2{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+    border: 5px solid #232323;
+
+  }
+  .main-title{
+    /* font-family: 'Josefin Slab', serif;
+    font-family: 'Julius Sans One', sans-serif; */
+    font-family: 'Rock Salt', cursive;
+    /* font-family: 'Bungee', cursive; */
+  }
+  .navbar-brand{
+    font-family: 'Rock Salt', cursive;
+  }
