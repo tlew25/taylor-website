@@ -1,6 +1,6 @@
 body {
   margin-top: 75px;
-  background-color: #ce5c5c;
+  background-color: #9FC0BA;
 }
 .navbar {
   background-color: #ffffff;
@@ -14,7 +14,7 @@ footer {
   color: #fff;
 }
 .row {
-  margin-top: 140px;
+  margin-top: 90px;
   margin-bottom: 355px;
 }
 .responsive {
@@ -31,26 +31,26 @@ footer {
 }
 .main-title {
   text-align: center;
-  /* font-family: 'Josefin Slab', serif;
-    font-family: 'Julius Sans One', sans-serif; */
-  font-family: "Rock Salt", cursive;
-  /* font-family: 'Bungee', cursive; */
+  font-family: 'Asap', sans-serif; 
 }
 .navbar-brand,
-h2 {
-  font-family: "Rock Salt", cursive;
+h2,h3,h1 {
+    font-family: 'Asap', sans-serif; 
 }
 /* abt me words */
 .word-1 {
   font-weight: bold;
   font-size: 14pt;
+  font-family: 'Asap', sans-serif; 
 }
 .word-2 {
   font-weight: bold;
   font-size: 14pt;
+  font-family: 'Asap', sans-serif; 
 }
 .word-3 {
   font-weight: bold;
   font-size: 14pt;
+  font-family: 'Asap', sans-serif; 
 }
 /*  */
