@@ -1,6 +1,6 @@
 body {
-  margin-top: 75px;
- background-color:#317D99; 
+  margin-top: 85px;
+  background-color: #317d99;
 }
 
 #showcase .showcase-right {
@@ -12,7 +12,7 @@ footer {
   color: #fff;
 }
 .row {
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 355px;
 }
 .responsive {
@@ -21,29 +21,47 @@ footer {
   border-radius: 50%;
   border: 5px solid #011a1d;
 }
-.responsive-2 {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5%;
-  border: 5px solid #011a1d;
-}
 .main-title {
+  color: #011a1d;
   text-align: center;
-  font-family: 'Asap', sans-serif; 
+  font-size: 35pt;
+  font-family: "Dr Sugiyama", cursive;
 }
-.navbar-brand,
-h2,h3,h1,h4 {
-    font-family: 'Asap', sans-serif;
-    color: #fff; 
+.main-header {
+  text-align: center;
+  font-size: 70pt;
+  font-family: "Dr Sugiyama", cursive;
 }
-b{
-    color: #fff;
-    font-family: 'Asap', sans-serif;
+h2,
+h3 {
+  font-family: "Antic", sans-serif;
+  color: #fff;
+}
+.navbar-brand {
+  font-family: "Dr Sugiyama", cursive;
+  font-size: 28pt;
+}
+.display-4 {
+  font-family: "Dr Sugiyama", cursive;
+  font-size: 60pt;
+}
+.jumbotron {
+  margin-top: 280px;
+  margin-bottom: 330px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 3px 5px #666666;
+}
+b, .lead {
+  color: #011a1d;
+  font-size: 14pt;
+  font-family: "Antic", sans-serif;
 }
 /* abt me words */
-.word{
+.word {
   font-weight: bold;
-  color: #011a1d;
-  font-family: 'Asap', sans-serif; 
+  font-size: 14pt;
+  color: #fff;
+  font-family: "Antic", sans-serif;
 }
 /*  */

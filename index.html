@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Taylor Lewis</title>
-    <link href="https://fonts.googleapis.com/css?family=Asap|Lora|Nunito+Sans|Poppins|Source+Sans+Pro|Source+Serif+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Antic|Dr+Sugiyama|Lekton|Prociono|Syncopate" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -40,19 +40,25 @@
       <!-- Content Section -->
       <section id="showcase">
           <div class="container">
+              <!-- Welcome Div -->
+                <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                          <h1 class="display-4 text-center">Welcome</h1>
+                          <p class="lead text-center">Thank you for visiting my portfolio site</p>
+                        </div>
+                      </div>
+                             <!-- End of Welcome Div  -->
               <div class="row">
                   <div class="col-md-6 col-sm-6">
                       <div class="showcase-left">
-                          <h3 class="text-center">Welcome to my portfolio</h3>
-                          <hr>
-                          <h1 class="main-title">Taylor Lewis</h1>
-                          <h4 class="sub-title text-center"> Full Stack Web Developer</h4>
+                          <h1 class="main-header">Taylor Lewis</h1>
+                          <h3 class="sub-title text-center"> Full Stack Web Developer</h3>
                           <img src="assets/img/10502281_837307602956526_992796337588120661_n.jpg" class="responsive">
                       </div>
                   </div>
                   <div class="col-md-6 col-sm-6">
                         <div class="showcase-right">
-                                <h2>About Me</h2>
+                                <h2 class="main-title">About Me</h2>
                                 <b><p>Location:</p></b> <p class="word">McKinney, Texas</p>
                                         <b><p class="word">Favorite Quote:</b> <em>“If there is no struggle, there is no progress."</em> – Frederick Douglass</p>
                                         <b><p>Education:</p></b> 
@@ -67,13 +73,13 @@
               <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="showcase-left">
-                                <h1 class="main-title">Portfolio</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minus veritatis ipsa reiciendis numquam, accusantium nesciunt blanditiis vitae error rerum dolorem neque eaque! Fugiat quod magnam officiis commodi deleniti quidem.</p>
+                                <img src="assets/img/pexels-photo-1738434.jpeg" alt="art" class="responsive">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
                           <div class="showcase-right">
-                                 <img src="assets/img/pexels-photo-1738434.jpeg" alt="art" class="responsive">
+                                <h1 class="main-title">Portfolio</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minus veritatis ipsa reiciendis numquam, accusantium nesciunt blanditiis vitae error rerum dolorem neque eaque! Fugiat quod magnam officiis commodi deleniti quidem.</p>
                           </div>
                       </div>
                 </div>
@@ -114,6 +120,30 @@
         duration: 3000,
         origin: 'right',
         distance: '100px',
+        opacity: 0
+    }));
+    sr.reveal('.main-header',({
+        duration: 3000,
+        origin: 'right',
+        distance: '100px',
+        opacity: 0
+    }));
+    sr.reveal('.jumbotron',({
+        duration: 3000,
+        origin: 'left',
+        distance: '80px',
+        opacity: 0
+    }));
+    sr.reveal('.word',({
+        duration: 3000,
+        origin: 'top',
+        distance: '80px',
+        opacity: 0
+    }));
+    sr.reveal('.lead',({
+        duration: 3000,
+        origin: 'bottom',
+        distance: '150px',
         opacity: 0
     }));
     sr.reveal('.sub-title',({
