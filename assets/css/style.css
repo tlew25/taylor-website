@@ -29,7 +29,7 @@ footer {
 }
 .main-header {
   text-align: center;
-  font-size: 70pt;
+  font-size: 55pt;
   font-family: "Dr Sugiyama", cursive;
 }
 h2,
@@ -39,18 +39,17 @@ h3 {
 }
 .navbar-brand {
   font-family: "Dr Sugiyama", cursive;
-  font-size: 28pt;
+  font-size: 33pt;
 }
 .display-4 {
   font-family: "Dr Sugiyama", cursive;
-  font-size: 60pt;
+  font-size: 50pt;
 }
 .jumbotron {
   margin-top: 280px;
   margin-bottom: 330px;
   border-radius: 5px;
   background-color: #fff;
-  border-radius: 1%;
   box-shadow: 3px 5px #666666;
 }
 .links {
@@ -68,7 +67,7 @@ h6 {
 span {
   color: #fff;
 }
-.btn {
+.btn{
   color: #fff;
   font-size: 14pt;
   font-family: "Antic", sans-serif;
@@ -79,3 +78,9 @@ span {
   color: #fff;
   font-family: "Antic", sans-serif;
 }
+li{
+  font-size: 18pt;
+  color: #fff;
+  font-family: "Antic", sans-serif;
+}
+
