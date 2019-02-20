@@ -18,31 +18,30 @@ footer {
 .responsive {
   max-width: 100%;
   height: auto;
-  border-radius: 50%;
   border: 5px solid #011a1d;
 }
 .main-title {
   color: #011a1d;
   text-align: center;
   font-size: 35pt;
-  font-family: "Dr Sugiyama", cursive;
+  font-family: 'Staatliches', cursive;
 }
 .main-header {
   text-align: center;
   font-size: 55pt;
-  font-family: "Dr Sugiyama", cursive;
+  font-family: 'Staatliches', cursive;
 }
 h2,
 h3 {
-  font-family: "Antic", sans-serif;
+    font-family: 'Roboto', sans-serif;
   color: #fff;
 }
 .navbar-brand {
-  font-family: "Dr Sugiyama", cursive;
+    font-family: 'Staatliches', cursive;
   font-size: 33pt;
 }
 .display-4 {
-  font-family: "Dr Sugiyama", cursive;
+    font-family: 'Staatliches', cursive;
   font-size: 50pt;
 }
 .jumbotron {
@@ -55,32 +54,31 @@ h3 {
 .links {
   margin-top: 15px;
   font-size: 14pt;
-  font-family: "Antic", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 b,
 .lead,
 h6 {
   color: #011a1d;
   font-size: 14pt;
-  font-family: "Antic", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 span {
   color: #fff;
 }
 .btn{
-  color: #fff;
   font-size: 14pt;
-  font-family: "Antic", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .word {
   font-weight: bold;
   font-size: 14pt;
   color: #fff;
-  font-family: "Antic", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 li{
-  font-size: 18pt;
+  font-size: 14pt;
   color: #fff;
-  font-family: "Antic", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
