@@ -6,6 +6,13 @@ body {
 #showcase .showcase-right {
   margin-top: 80px;
 }
+#showcase .showcase-left {
+    margin-top: 80px;
+  }
+  /* specialized position */
+  #showcase .showcase-right-1{
+    margin-top: 105px;
+  }
 footer {
   padding: 25px;
   background-color: #011a1d;
@@ -82,7 +89,7 @@ li{
   font-family: 'Roboto', sans-serif;
 }
 .tools{
-    font-size: 18pt;
+    font-size: 16pt;
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
