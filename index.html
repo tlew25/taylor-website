@@ -44,7 +44,6 @@
                 <div class="jumbotron jumbotron-fluid">
                         <div class="container">
                           <h1 class="display-4 text-center">Welcome</h1>
-                          
                           <p class="lead text-center">Thank you for visiting my portfolio site!</p>
                         </div>
                       </div>
@@ -54,15 +53,15 @@
                       <div class="showcase-left">
                           <h1 class="main-header">Taylor Lewis</h1>
                           <h3 class="sub-title text-center"> Full Stack Web Developer</h3>
-                          <img src="assets/img/10502281_837307602956526_992796337588120661_n.jpg" height="200px" class="responsive">
+                          <img src="assets/img/10502281_837307602956526_992796337588120661_n.jpg" class="responsive">
                       </div>
                   </div>
                   <div class="col-md-6 col-sm-6">
                         <div class="showcase-right-1">
                                 <h2 class="main-title">About Me</h2>
-                                <b><p>Location:</p></b><p class="word">McKinney, Texas</p>
-                                        <b><p class="word">Favorite Quote:</b> <em>“If there is no struggle, there is no progress."</em> – Frederick Douglass</p>
-                                        <b><p>Education:</p></b> 
+                                <b class="bold-move"><p>Location:</p></b><p class="word">McKinney, Texas</p>
+                                        <b class="bold-move"><p class="word">Favorite Quote:</b> <em>“If there is no struggle, there is no progress."</em> – Frederick Douglass</p>
+                                        <b class="bold-move"><p>Education:</p></b> 
                                                 <p class="word">Texas Tech University - BA English 2017</p>
                                                 <p class="word">Southern Methodist University - Full Stack Web Development Certificate 2019</p>
                                         
@@ -229,6 +228,12 @@
         duration: 3000,
         origin: 'bottom',
         distance: '100px',
+        opacity: 0
+    }));
+    sr.reveal('.bold-move',({
+        duration: 3000,
+        origin: 'right',
+        distance: '80px',
         opacity: 0
     }));
     </script>

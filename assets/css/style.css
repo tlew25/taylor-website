@@ -63,9 +63,13 @@ h3 {
   font-size: 14pt;
   font-family: "Roboto", sans-serif;
 }
-b,
 .lead,
 h6 {
+  color: #011a1d;
+  font-size: 14pt;
+  font-family: "Roboto", sans-serif;
+}
+.bold-move{
   color: #011a1d;
   font-size: 14pt;
   font-family: "Roboto", sans-serif;
