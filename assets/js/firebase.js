@@ -34,7 +34,7 @@ function submitForm(e) {
     // Hide alert after 3 seconds
     setTimeout(function () {
         document.querySelector('.alert').style.display = 'none';
-    }, 5000);
+    }, 3000);
 
     // Clear form
     document.getElementById('contactForm').reset();
