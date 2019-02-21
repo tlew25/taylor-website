@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- HEAD -->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +12,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <!--  -->
+
 <body>
   <!-- Fixed Top Navigation -->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -41,31 +44,31 @@
     </ul>
     </div>
   </nav>
-  <br>
-  <br>
   <!-- End of Navigation -->
 
   <!-- Card -->
   <div class="row">
     <div class="col-md-6 col-sm-6">
-      <div class="showcase-left">
-        <div class="card" style="width: 18rem;">
+      <div class="showcase-left-2">
+        <div class="card" style="width: 75%">
           <img src="assets/img/graduation.jpg" class="responsive" alt="linkedin">
           <div class="card-body">
             <p class="contact-txt">Taylor Lewis</p>
-            <p class="contact-txt">Phone Number: (469)-450-8357</p>
+            <p class="contact-txt">Full Stack Web Developer</p>
+            <p class="contact-txt">Phone Number:</p>
+            <p class="contact-txt">(469)-450-8357</p>
             <p class="contact-txt">Email: taylor1lewis@yahoo.com</p>
             <hr>
             <!-- Social Media Icons -->
             <center>
               <a href="https://www.linkedin.com/in/taylor-lewis-58210b141/">
-                <img id="media-image" src="assets/img/square-linkedin-512.png" alt="contact" height="50" width="55" />
+                <img class="media-image" src="assets/img/square-linkedin-512.png" alt="contact" height="50" width="55" />
               </a>
               <a href="https://github.com/tlew25">
-                <img id="media-image" src="assets/img/Octocat.png" alt="contact" height="50" width="55" />
+                <img class="media-image" src="assets/img/Octocat.png" alt="contact" height="50" width="55" />
               </a>
               <a href="https://twitter.com/taylor1lewis">
-                <img id="media-image" src="assets/img/580b57fcd9996e24bc43c53e (1).png" alt="contact" height="50" width="55" />
+                <img class="media-image" src="assets/img/580b57fcd9996e24bc43c53e (1).png" alt="contact" height="50" width="55" />
               </a>
             </center>
             <!--  -->
@@ -77,38 +80,44 @@
 
     <!-- Forms -->
     <div class="col-md-6 col-sm-6">
-      <div class="showcase-right">
-        <form class="user-input">
+      <div class="showcase-right-2">
+        <form id="contactForm">
           <div class="form-group">
             <h1 class="main-title">Contact Me</h1>
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <div class="alert">Thanks for contacting me!</div>
+            <label for="exampleInputEmail1">Name</label>
+            <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter email" required>
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Phone Number</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Phone #">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Comments</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="phone">Phone Number</label>
+            <input type="unique" class="form-control" id="phone" placeholder="Phone #">
           </div>
-          <button type="submit" class="btn btn-dark">Submit</button>
+          <div class="form-group">
+            <label for="comments">Comments</label>
+            <textarea class="form-control" id="comments" rows="3"></textarea>
+          </div>
+          <button type="submit" id="submitForm" class="btn btn-dark">Submit</button>
         </form>
       </div>
     </div>
   </div>
-<!-- End of Forms -->
+  <!-- End of Forms -->
 
   <!-- Footer -->
   <footer>
     <p class="text-center">Taylor Lewis Copyright &copy; 2019</p>
   </footer>
   <!--  -->
-  
+
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-     <!-- Scrollreveal functionality -->
+  <script src="assets/js/firebase.js"></script>
+  <!-- Scrollreveal functionality -->
   <script>
     window.sr = ScrollReveal();
     sr.reveal('.navbar', ({
@@ -117,25 +126,32 @@
       opacity: 0
     }));
     sr.reveal('.card', ({
-      duration: 3000,
+      duration: 2000,
       origin: 'top',
       opacity: 0
     }));
     sr.reveal('.form-group', ({
-      duration: 3000,
+      duration: 2000,
       origin: 'top',
       opacity: 0
     }));
     sr.reveal('.btn', ({
-      duration: 3000,
+      duration: 2000,
       origin: 'bottom',
       distance: '100px',
       opacity: 0
     }));
     sr.reveal('.contact-txt', ({
-      duration: 3000,
+      duration: 2000,
       origin: 'right',
       distance: '70px',
       opacity: 0
     }));
+    sr.reveal('.media-image', ({
+      duration: 2000,
+      origin: 'top',
+      distance: '20px',
+      opacity: 0
+    }));
   </script>
+</body>

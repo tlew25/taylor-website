@@ -158,13 +158,13 @@
                         <!-- Social Media Icons -->
                         <center>
                             <a href="https://www.linkedin.com/in/taylor-lewis-58210b141/">
-                                <img id="media-image" src="assets/img/square-linkedin-512.png" alt="contact" height="50" width="55" />
+                                <img class="media-image" src="assets/img/square-linkedin-512.png" alt="contact" height="50" width="55" />
                             </a>
                             <a href="https://github.com/tlew25">
-                                <img id="media-image" src="assets/img/Octocat.png" alt="contact" height="50" width="55" />
+                                <img class="media-image" src="assets/img/Octocat.png" alt="contact" height="50" width="55" />
                             </a>
                             <a href="https://twitter.com/taylor1lewis">
-                                <img id="media-image" src="assets/img/580b57fcd9996e24bc43c53e (1).png" alt="contact" height="50" width="55" />
+                                <img class="media-image" src="assets/img/580b57fcd9996e24bc43c53e (1).png" alt="contact" height="50" width="55" />
                             </a>
                         </center>
                         <!--  -->
@@ -256,6 +256,12 @@
             duration: 2000,
             origin: 'right',
             distance: '40px',
+            opacity: 0
+        }));
+        sr.reveal('.media-image', ({
+            duration: 2000,
+            origin: 'top',
+            distance: '20px',
             opacity: 0
         }));
     </script>
