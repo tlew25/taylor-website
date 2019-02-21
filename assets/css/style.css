@@ -15,21 +15,21 @@ body {
 }
 /*  */
 footer {
-  padding: 25px;
-  background-color: #011a1d;
+  padding: 35px;
+  background-color: #353A3F;
   color: #fff;
 }
 .row {
   margin-top: 50px;
-  margin-bottom: 345px;
+  margin-bottom: 250px;
 }
 .responsive {
   max-width: 100%;
   height: auto;
-  border: 5px solid #011a1d;
+  border: 8px solid #353A3F;
 }
 .main-title {
-  color: #011a1d;
+  color: #353A3F;
   text-align: center;
   font-size: 35pt;
   font-family: "Staatliches", cursive;
@@ -53,11 +53,11 @@ h3 {
   font-size: 50pt;
 }
 .jumbotron {
-  margin-top: 280px;
-  margin-bottom: 330px;
+  margin-top: 270px;
+  margin-bottom: 300px;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: 3px 5px #666666;
+  box-shadow: 3px 5px #353A3F;
 }
 .links {
   margin-top: 15px;
@@ -66,13 +66,13 @@ h3 {
 }
 .lead,
 h6 {
-  color: #011a1d;
+  color: #353A3F;
   font-size: 14pt;
   font-family: "Roboto", sans-serif;
 }
 .bold-move {
   font-weight: bold;
-  color: #011a1d;
+  color: #353A3F;
   font-size: 14pt;
   font-family: "Roboto", sans-serif;
 }
@@ -102,7 +102,7 @@ li {
 form {
   width: 50%;
   margin-left: 25%;
-  margin-bottom: 280px;
+  margin-bottom: 260px;
 }
 .card {
   margin-left: 10%;
@@ -112,6 +112,6 @@ form {
 label {
   font-weight: bold;
   font-size: 12pt;
-  color: #011a1d;
+  color: #353A3F;
   font-family: "Roboto", sans-serif;
 }
