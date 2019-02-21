@@ -1,6 +1,6 @@
 body {
-  margin-top: 85px;
-  background-color: #317d99;
+  margin-top: 75px;
+  background-color: #76A2A8;
 }
 
 #showcase .showcase-right {
@@ -21,7 +21,7 @@ footer {
 }
 .row {
   margin-top: 50px;
-  margin-bottom: 250px;
+  margin-bottom: 230px;
 }
 .responsive {
   max-width: 100%;
