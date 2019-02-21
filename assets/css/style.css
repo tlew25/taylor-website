@@ -7,12 +7,12 @@ body {
   margin-top: 80px;
 }
 #showcase .showcase-left {
-    margin-top: 80px;
-  }
-  /* specialized position */
-  #showcase .showcase-right-1{
-    margin-top: 105px;
-  }
+  margin-top: 80px;
+}
+/* specialized position */
+#showcase .showcase-right-1 {
+  margin-top: 105px;
+}
 footer {
   padding: 25px;
   background-color: #011a1d;
@@ -20,7 +20,7 @@ footer {
 }
 .row {
   margin-top: 50px;
-  margin-bottom: 355px;
+  margin-bottom: 345px;
 }
 .responsive {
   max-width: 100%;
@@ -31,24 +31,24 @@ footer {
   color: #011a1d;
   text-align: center;
   font-size: 35pt;
-  font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
 }
 .main-header {
   text-align: center;
   font-size: 55pt;
-  font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
 }
 h2,
 h3 {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
 }
 .navbar-brand {
-    font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
   font-size: 33pt;
 }
 .display-4 {
-    font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
   font-size: 50pt;
 }
 .jumbotron {
@@ -61,51 +61,51 @@ h3 {
 .links {
   margin-top: 15px;
   font-size: 14pt;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 b,
 .lead,
 h6 {
   color: #011a1d;
   font-size: 14pt;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 span {
   color: #fff;
 }
-.btn{
+.btn {
   font-size: 12pt;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .word {
   font-weight: bold;
   font-size: 14pt;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-li{
+li {
   font-size: 14pt;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.tools{
-    font-size: 16pt;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
+.tools {
+  font-size: 16pt;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
-form{
-    width: 50%;
-    margin-left: 25%;
-margin-bottom: 355px;
+form {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 295px;
 }
-.card{
-    margin-left: 10%;
-    margin-bottom: 15%;
+.card {
+  margin-left: 10%;
+  margin-bottom: 15%;
 }
-.contact-txt, label{
-    font-weight: bold;
+.contact-txt,
+label {
+  font-weight: bold;
   font-size: 12pt;
   color: #011a1d;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
