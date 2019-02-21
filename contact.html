@@ -37,23 +37,62 @@
       <br>
       <br>
       <!-- End of Navigation -->
-
+   
       <!-- Forms-->
-     <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Phone Number</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Phone #">
-            </div>
-            <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Comments</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="showcase-left">
+                            <div class="card" style="width: 18rem;">
+                                    <img src="assets/img/linkedin.jpeg" class="responsive" alt="linkedin">
+                                    <div class="card-body">
+                                      <p class="contact-txt">Taylor Lewis</p>
+                                      <p class="contact-txt">Phone Number: (469)-450-8357</p>
+                                      <p class="contact-txt">Email: taylor1lewis@yahoo.com</p>
+                                      <hr>
+                                      <center><a href="https://www.linkedin.com/in/taylor-lewis-58210b141/"
+                                      ><img
+              id="media-image"
+              src="assets/img/square-linkedin-512.png"
+              alt="contact"
+              height="50"
+              width="55"
+          /></a>
+          <a href="https://github.com/tlew25"
+            ><img  id="media-image"src="assets/img/Octocat.png" alt="contact" height="50" width="55"
+          /></a>
+          <a href="https://twitter.com/taylor1lewis"
+            ><img
+            id="media-image"
+              src="assets/img/580b57fcd9996e24bc43c53e (1).png"
+              alt="contact"
+              height="50"
+              width="55"
+          /></a></center>
+                                    </div>
+                                  </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                      <div class="showcase-right">
+                            <form class="user-input">
+                                    <div class="form-group">
+                                        <h1 class="main-title">Contact Me</h1>
+                                      <label for="exampleInputEmail1">Email address</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="exampleInputPassword1">Phone Number</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Phone #">
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Comments</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                          </div>
+                                    <button type="submit" class="btn btn-dark">Submit</button>
+                                  </form>
+                      </div>
                   </div>
-            <button type="submit" class="btn btn-dark">Submit</button>
-          </form>
+            </div>
 
       <!-- Footer -->
       <footer>
@@ -73,35 +112,14 @@
                 origin: 'left',
                 opacity: 0
             }));
-            sr.reveal('.form-group',({
-                duration: 3000,
-                origin: 'right',
-                distance: '100px',
-                opacity: 0
-            }));
-            sr.reveal('.jumbotron',({
-                duration: 3000,
-                origin: 'left',
-                distance: '80px',
-                opacity: 0
-            }));
-            sr.reveal('.lead',({
-                duration: 3000,
-                origin: 'bottom',
-                distance: '150px',
-                opacity: 0
-            }));
-            sr.reveal('.showcase-left',({
-                duration: 3000,
-                origin: 'bottom',
-                distance: '120px',
-                opacity: 0
-            }));
-            sr.reveal('.showcase-right',({
+            sr.reveal('.card',({
                 duration: 3000,
                 origin: 'top',
-                opacity: 0.8,
-                distance: '120px',
+                opacity: 0
+            }));
+            sr.reveal('.form-group',({
+                duration: 3000,
+                origin: 'top',
                 opacity: 0
             }));
             </script>

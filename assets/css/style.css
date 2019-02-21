@@ -98,7 +98,13 @@ form{
     margin-left: 25%;
 margin-bottom: 355px;
 }
-label{
-    text-align: left;
+.card{
+    margin-left: 25%;
+}
+.contact-txt, label{
+    font-weight: bold;
+  font-size: 12pt;
+  color: #011a1d;
+  font-family: 'Roboto', sans-serif;
 }
 
