@@ -50,6 +50,7 @@
             <!-- Welcome Div -->
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
+                        <p id="date-header"class="lead text-right"></p>
                     <h1 class="display-4 text-center">Welcome</h1>
                     <p class="lead text-center">Thank you for visiting my portfolio site!</p>
                 </div>
@@ -128,8 +129,7 @@
                         <p class="bold-move">
                             <em>"Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most
                                 of all, love of what you are doing or learning to do."</em> - Pele</p>
-                        <p class="word">Here's where I show you the culmination of my blood, sweat, and tears, but most importantly show
-                            I can code</p>
+                    
                         <p class="word">Feedback is appreciated!</p>
                         <br>
                         <a href="portfolio.html">
@@ -183,84 +183,90 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="assets/js/date.js"></script>
     <script>
         window.sr = ScrollReveal();
         sr.reveal('.navbar', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'left',
             opacity: 0
         }));
         sr.reveal('.main-title', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'right',
             distance: '20px',
             opacity: 0
         }));
         sr.reveal('.main-header', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'top',
             distance: '20px',
             opacity: 0
         }));
         sr.reveal('.jumbotron', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'top',
             distance: '40px',
             opacity: 0
         }));
         sr.reveal('.word', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'top',
             distance: '40px',
             opacity: 0
         }));
         sr.reveal('.lead', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'bottom',
             distance: '25px',
             opacity: 0
         }));
         sr.reveal('.sub-title', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'left',
-            opacity: 0.8,
             distance: '25px',
             opacity: 0
         }));
         sr.reveal('.showcase-left', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'bottom',
             distance: '30px',
             opacity: 0
         }));
         sr.reveal('.showcase-right', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'top',
             opacity: 0.8,
             distance: '30px',
             opacity: 0
         }));
         sr.reveal('.tools', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'right',
             distance: '30px',
             opacity: 0
         }));
         sr.reveal('.btn', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'right',
             distance: '10px',
             opacity: 0
         }));
         sr.reveal('.bold-move', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'right',
             distance: '20px',
             opacity: 0
         }));
         sr.reveal('.media-image', ({
-            duration: 2000,
+            duration: 1000,
             origin: 'top',
+            distance: '20px',
+            opacity: 0
+        }));
+        sr.reveal('.text-right', ({
+            duration: 1000,
+            origin: 'left',
             distance: '20px',
             opacity: 0
         }));

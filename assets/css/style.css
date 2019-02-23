@@ -46,6 +46,9 @@ h3 {
   font-family: "Roboto", sans-serif;
   color: #fff;
 }
+#date-header{
+  color: #353a3f;
+}
 .navbar-brand {
   font-family: "Staatliches", cursive;
   font-size: 33pt;
