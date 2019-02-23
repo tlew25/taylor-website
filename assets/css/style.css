@@ -48,6 +48,8 @@ h3 {
 }
 #date-header{
   color: #353a3f;
+  font-size: 18pt;
+  font-weight: bold;
 }
 .navbar-brand {
   font-family: "Staatliches", cursive;
