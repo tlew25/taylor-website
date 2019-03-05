@@ -92,12 +92,15 @@ h3 {
 .navbar-brand {
   font-family: "Roboto", sans-serif;
   font-size: 22pt;
-  color: #fff;
+  color: #353a3f;
 }
 .display-4 {
   font-family: "Roboto", sans-serif;
   font-size: 33pt;
 color: #353a3f;;
+}
+#navbar-color{
+  opacity: 0.9;
 }
 .jumbotron {
   border: 5px solid #fff;
@@ -123,7 +126,7 @@ color: #353a3f;;
   height: 10%;
 }
 .nav-link{
-  color: #fff;
+  color: #353a3f;
   text-decoration: none;
 }
 h6 {
