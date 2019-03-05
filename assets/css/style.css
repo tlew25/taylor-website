@@ -95,6 +95,7 @@ h3 {
   color: #353a3f;
 }
 .display-4 {
+  margin-bottom: 70px;
   font-family: "Roboto", sans-serif;
   font-size: 33pt;
 color: #353a3f;;
@@ -108,8 +109,8 @@ color: #353a3f;;
   margin-bottom: 300px;
   border-radius: 5px;
   background-image: url('https://www.pngarts.com/files/1/Abstract-PNG-High-Quality-Image.png');
-  background-origin: right;
-  background-size: 800px;
+  background-size: 280px;
+  background-position: right; 
   background-repeat: no-repeat;
 }
 .navbar-toggler-icon{
@@ -135,6 +136,7 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 .lead{
+  margin-top: 70px;
   font-family: "Roboto", sans-serif;
   color:  #353a3f;
   font-size: 11pt;
