@@ -16,7 +16,7 @@
 
 <body>
     <!-- Fixed Top Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md fixed-top" style="background-color: #666;">
         <a class="navbar-brand" href="#">Taylor Lewis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -51,23 +51,24 @@
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <!-- blanked out for now -->
-                        <!-- <p id="date-header"class="lead text-right"></p> -->
-                    <h1 class="display-4 text-center">Welcome</h1>
-                    <p class="lead text-center">Thank you for visiting my portfolio site!</p>
+                    <!-- <p id="date-header"class="lead text-right"></p> -->
+                    <h1 class="display-4 text-left">Welcome</h1>
+                    <p class="lead text-left">Thank you for visiting my portfolio site!</p>
                 </div>
             </div>
             <!-- End of Welcome Div  -->
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <div class="showcase-left">
+                    <div class="showcase-left-1">
                         <h1 class="main-header">Taylor Lewis</h1>
                         <h3 class="sub-title text-center"> Full Stack Web Developer</h3>
-                        <img src="assets/img/10502281_837307602956526_992796337588120661_n.jpg" class="responsive">
+                        <img src="assets/img/10502281_837307602956526_992796337588120661_n.jpg" class="responsive-profile">
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="showcase-right-1">
                         <h2 class="main-title">About Me</h2>
+                        <hr class="line">
                         <p class="bold-move">Location:</p>
                         <p class="word">McKinney, Texas</p>
                         <p class="bold-move">Education:</p>
@@ -78,12 +79,12 @@
 
                         <p class="bold-move">Background:</p>
 
-                        <p class="word">My first love was writing stories, poems, and all different genres of literature - I enjoy being in a creative state of mind.
-                            I found a new passion in coding soon after graduating from Texas Tech University with a Bachelors in English Literature
-                            in 2017.</p>
-                        <p class="word">In order to get into the development field, I took an intensive 24-week SMU Global Program dedicated to designing and building
-                            web applications. Skills learned consisted of HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB,
-                            Express, Handlebars JS, and React Js.</p>
+                        <p class="word">My first love was writing stories, poems, and all different genres of literature - I enjoy being
+                            in a creative state of mind. I found a new passion in coding soon after graduating from Texas
+                            Tech University with a Bachelors in English Literature in 2017.</p>
+                        <p class="word">In order to get into the development field, I took an intensive 24-week SMU Global Program dedicated
+                            to designing and building web applications. Skills learned consisted of HTML5, CSS3, Javascript,
+                            JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handlebars JS, and React Js.</p>
                         <p class="word">Below you will find all my creations and team projects from class.</p>
                     </div>
                 </div>
@@ -97,6 +98,7 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="showcase-right">
                         <h1 class="main-title">Technical Skills</h1>
+                        <hr class="line">
                         <ul>
                             <li class="tools">JavaScript</li>
                             <li class="tools">React</li>
@@ -121,14 +123,16 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="showcase-right">
                         <h1 class="main-title">Portfolio</h1>
+                        <hr class="line">
                         <p class="bold-move">
                             <em>"Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most
                                 of all, love of what you are doing or learning to do."</em> - Pele</p>
-                    
+
                         <p class="word">Feedback is appreciated!</p>
                         <br>
+                        <hr class="line">
                         <a href="portfolio.html">
-                            <button type="button" class="btn btn-dark">Check out portfolio page</button>
+                            <button type="button" class="btn btn-light">Check out portfolio page</button>
                         </a>
                     </div>
                 </div>
@@ -142,14 +146,15 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="showcase-right">
                         <h1 class="main-title">Contact Information</h1>
+                        <hr class="line">
                         <p class="word">Feel free to reach out for any questions, critiques, or anything else!</p>
                         <br>
                         <a href="contact.html">
-                            <button type="button" class="btn btn-dark">Contact me</button>
+                            <button type="button" class="btn btn-light">Contact me</button>
                         </a>
                         <h6 class="links">Check out my GitHub account
                             <span> tlew25 </span> and other social media</h6>
-                        <hr>
+                        <hr class="line">
                         <!-- Social Media Icons -->
                         <center>
                             <a href="https://www.linkedin.com/in/taylor-lewis-58210b141/">
@@ -178,7 +183,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <script src="assets/js/date.js"></script>
+    <script src="assets/js/date.js"></script>
     <script>
         window.sr = ScrollReveal();
         sr.reveal('.navbar', ({

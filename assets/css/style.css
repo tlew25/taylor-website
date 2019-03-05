@@ -1,19 +1,40 @@
 body {
   margin-top: 140px;
-  background-color: #5d9eaf;
+  background-color: #C3C3C3;
 }
 #showcase .showcase-right {
-  margin-top: 80px;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: 5px solid #fff;
+  max-height: 100%;
+  padding: 30px;
+  background-color: #666;
 }
 #showcase .showcase-left {
-  margin-top: 80px;
+  border-radius: 5px;
+  max-height: 100%;
+  background-color: #353a3f;
+}
+#showcase .showcase-left-1 {
+  border-radius: 5px;
+  border: 5px solid #353a3f;
+  max-height: 100%;
+background-color: #fff;
 }
 /* specialized position */
 #showcase .showcase-right-1 {
-  margin-top: 105px;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: 5px solid #fff;
+  padding: 50px;
+  background-color: #666;
 }
 .showcase-right-2 {
-  margin-top: 100px;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: 5px solid #fff;
+  background-color: #666;
+  width: 70%;
 }
 /*  */
 footer {
@@ -26,69 +47,107 @@ footer {
   margin-bottom: 240px;
 }
 .responsive {
+  max-height: 70%;
   max-width: 100%;
   height: auto;
-  border: 8px solid #353a3f;
+  border-radius: 5px;
+  border: 3px solid #353a3f;
 }
 .responsive-contact{
+  border-radius: 5px;
+  border: 5px solid #353a3f;
+  margin: 0%;
+  max-width: 70%;
+  height: auto;
+}
+.responsive-profile{
+  border-radius: 5px;
+  border-top: 5px solid #353a3f;
+  max-height: 100%;
   max-width: 100%;
   height: auto;
 }
 .main-title {
-  color: #353a3f;
+  color: #fff;
   text-align: center;
   font-size: 35pt;
-  font-family: "Staatliches", cursive;
+  font-family: "Roboto", sans-serif;
 }
 .main-header {
+  background-image: url('https://ya-webdesign.com/images/circuit-png-4.png');
+  background-origin: bottom;
+  background-size: 120px;
+  background-repeat: no-repeat;
   text-align: center;
-  font-size: 55pt;
-  font-family: "Staatliches", cursive;
+  font-size: 35pt;
+  font-family: "Roboto", sans-serif;
 }
 h2,
 h3 {
   font-family: "Roboto", sans-serif;
-  color: #fff;
-}
-#date-header{
   color: #353a3f;
-  font-size: 18pt;
-  font-weight: bold;
 }
 .navbar-brand {
-  font-family: "Staatliches", cursive;
-  font-size: 33pt;
+  font-family: "Roboto", sans-serif;
+  font-size: 22pt;
+  color: #fff;
 }
 .display-4 {
-  font-family: "Staatliches", cursive;
-  font-size: 50pt;
+  font-family: "Roboto", sans-serif;
+  font-size: 33pt;
+color: #353a3f;;
 }
 .jumbotron {
+  border: 5px solid #353a3f;
   margin-top: 270px;
   margin-bottom: 300px;
   border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 3px 5px #353a3f;
+  background-image: url('https://www.pngarts.com/files/1/Abstract-PNG-High-Quality-Image.png');
+  background-origin: right;
+  background-size: 800px;
+  background-repeat: no-repeat;
+}
+.collapse{
+  color: #fff;
+}
+.navbar-toggler-icon{
+  color: #fff;
 }
 .links {
   margin-top: 15px;
   font-size: 14pt;
-  font-family: "Roboto", sans-serif;
-}
-.lead,
-h6 {
   color: #353a3f;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+.nav-link{
+  color: #fff;
+  text-decoration: none;
+}
+h6 {
+  color:  #353a3f;
   font-size: 14pt;
   font-family: "Roboto", sans-serif;
+}
+.lead{
+  font-family: "Roboto", sans-serif;
+  color:  #353a3f;
+  font-size: 11pt;
 }
 .bold-move {
   font-weight: bold;
-  color: #353a3f;
+  color: #fff;
   font-size: 14pt;
   font-family: "Roboto", sans-serif;
 }
+.line{
+  background-color:  #fff;
+}
+.sub-title{
+  border-top: 5px solid #353a3f;
+}
 span {
-  color: #fff;
+  color: #353a3f;
 }
 .btn {
   font-size: 12pt;
@@ -101,12 +160,12 @@ span {
   font-family: "Roboto", sans-serif;
 }
 li {
-  font-size: 14pt;
+  font-size: 12pt;
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
 .tools {
-  font-size: 22pt;
+  font-size: 16pt;
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
