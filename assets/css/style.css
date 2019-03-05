@@ -1,6 +1,6 @@
 body {
   margin-top: 140px;
-  background-color: #C3C3C3;
+  background-color: #353a3f;
 }
 #showcase .showcase-right {
   margin-top: 60px;
@@ -19,7 +19,7 @@ body {
 #showcase .showcase-left-1 {
   margin-top: 60px;
   border-radius: 5px;
-  border: 5px solid #353a3f;
+  border: 5px solid #fff;
   max-height: 100%;
 background-color: #fff;
 }
@@ -53,11 +53,11 @@ footer {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
-  border: 3px solid #353a3f;
+  border: 3px solid #fff;
 }
 .responsive-contact{
   border-radius: 5px;
-  border: 5px solid #353a3f;
+  border: 5px solid #fff;
   margin: 0%;
   max-width: 70%;
   height: auto;
@@ -100,7 +100,7 @@ h3 {
 color: #353a3f;;
 }
 .jumbotron {
-  border: 5px solid #353a3f;
+  border: 5px solid #fff;
   margin-top: 270px;
   margin-bottom: 300px;
   border-radius: 5px;
