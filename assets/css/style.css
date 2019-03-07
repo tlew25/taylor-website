@@ -27,7 +27,7 @@ body {
   margin-top: 60px;
   border-radius: 3px;
   border: 3px solid #b2bec3;
-  padding: 25px;
+  padding: 15px;
   background-color: #ecf0f1;
 }
 .showcase-right-2 {
@@ -69,6 +69,10 @@ footer {
   max-height: 100%;
   max-width: 100%;
   height: auto;
+}
+#school-logo{
+  margin-left: 10%;
+  margin-top: -1%;
 }
 .main-title {
   text-align: center;
