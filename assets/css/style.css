@@ -128,8 +128,9 @@ h3 {
   margin: 0;
   margin-top: 270px;
   margin-bottom: 300px;
-  border-radius: 5px;
-  padding: 2%;
+  border-radius: 80%;
+  padding: 10%;
+  width: 80%;
   background-image: url("https://www.pngarts.com/files/1/Abstract-PNG-High-Quality-Image.png");
   background-size: 78%;
   background-position: right;
