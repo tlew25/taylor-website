@@ -65,7 +65,7 @@ footer {
 }
 .responsive-profile{
   border-radius: 5px;
-  border-top: 5px solid #353a3f;
+  border-top: 5px solid #34495e;
   max-height: 100%;
   max-width: 100%;
   height: auto;
@@ -73,7 +73,7 @@ footer {
 .main-title {
   text-align: center;
   font-size: 25pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .main-header {
   background-image: url('https://ya-webdesign.com/images/circuit-png-4.png');
@@ -82,36 +82,40 @@ footer {
   background-repeat: no-repeat;
   text-align: center;
   font-size: 35pt;
-  font-family: "Roboto", sans-serif;
+  color: #34495e;
+  font-family: 'Prompt', sans-serif;
 }
 h2,
 h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .navbar-brand {
-  font-family: "Roboto", sans-serif;
-  font-size: 22pt;
-  color: #353a3f;
+  font-family: 'Prompt', sans-serif;
+  font-size: 28pt;
+  color: #34495e;
   text-decoration: none;
 }
 .display-4 {
-  font-family: "Roboto", sans-serif;
-  font-size: 50pt;
+  font-family: 'Prompt', sans-serif;
+  color:#34495e;
+  font-size: 45pt;
 }
 #navbar-color{
   background-color: #eee;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 #navbar-font{
   font-size: 16pt;
 }
 .jumbotron {
   border: 5px solid #353a3f;
+  margin: 0;
   margin-top: 270px;
   margin-bottom: 300px;
   border-radius: 5px;
+  padding: 2%;
   background-image: url('https://www.pngarts.com/files/1/Abstract-PNG-High-Quality-Image.png');
-  background-size: 80%;
+  background-size: 78%;
   background-position: right; 
   background-repeat: no-repeat;
 }
@@ -121,7 +125,7 @@ h3 {
 .links {
   margin-top: 15px;
   font-size: 14pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cormorant Garamond', serif; 
   text-decoration: none;
 }
 .nav-icon{
@@ -133,18 +137,18 @@ h3 {
 }
 h6 {
   font-size: 14pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cormorant Garamond', serif; 
 }
 .lead{
    margin-top: 38%;
-  font-family: "Roboto", sans-serif;
+   font-family: 'Cormorant Garamond', serif; 
   font-size: 20pt;
 }
 .bold-move {
   line-height: 150%;
   font-weight: bold;
   font-size: 16pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cormorant Garamond', serif; 
 }
 .line{
   /* background-color:  #fff; */
@@ -155,28 +159,29 @@ h6 {
   color: #eee;
 } */
 .sub-title{
-  border-top: 5px solid #353a3f;
+  border-top: 5px solid #34495e;
+  color: #34495e;
 }
 span {
   color: #353a3f;
 }
 .btn {
   font-size: 12pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cormorant Garamond', serif; 
 }
 .word {
   line-height: 150%;
   font-size: 14pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cormorant Garamond', serif; 
 }
 li {
   line-height: 150%;
   font-size: 14pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cormorant Garamond', serif; 
 }
 .tools {
   font-size: 16pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cormorant Garamond', serif; 
 }
 form {
   margin-top: 10%;
@@ -193,11 +198,11 @@ form {
 .contact-txt,
 label {
   font-size: 14pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cormorant Garamond', serif; 
 }
 .alert {
   font-size: 12pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cormorant Garamond', serif; 
   text-align: center;
   padding: 10px;
   background: #fff;
