@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Taylor Lewis</title>
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Nanum+Myeongjo|Prompt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri|Cardo" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -16,7 +16,7 @@
 <body>
     <!-- Fixed Top Navigation -->
     <nav id="navbar-color" class="navbar navbar-expand-md fixed-top">
-        <a id="navbar-font"class="navbar-brand" href="index.html">Back</a>
+        <a id="navbar-font" class="navbar-brand" href="index.html">Back</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
         </div>
     </nav>
     <!-- End of Navigation -->
-
+    <h4 id="portfolio-head" class="text-center">Click on image to view demo/GitHub Repo</h4>
     <!-- Content Section -->
     <section id="showcase">
         <div class="container">
@@ -44,10 +44,10 @@
                         <h2 class="main-title">Burger Palace</h2>
                         <p class="word">Hungry? This Burger Palace game is built with Node, Express, SQL, Handlebars, and JavaScript with
                             the objective to use CRUD methods in placing orders</p>
-                            <hr class="line">
-                            <a href="https://github.com/tlew25/eat_da_burger">
-                                <button type="button" class="btn btn-light">GitHub Repository</button>
-                            </a>
+                        <hr class="line">
+                        <a href="https://github.com/tlew25/eat_da_burger">
+                            <button type="button" class="btn btn-light">GitHub Repository</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -105,10 +105,10 @@
                         <p class="word">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam sunt placeat nihil unde, vel sapiente
                             corrupti eius et voluptatibus exercitationem mollitia error atque debitis eaque magni quis eos
                             obcaecati esse?</p>
-                            <hr class="line">
-                            <a href="https://github.com/tlew25/Pyschic_Game">
-                                <button type="button" class="btn btn-light">GitHub Repository</button>
-                            </a>
+                        <hr class="line">
+                        <a href="https://github.com/tlew25/Pyschic_Game">
+                            <button type="button" class="btn btn-light">GitHub Repository</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -271,58 +271,57 @@
     <script>
         window.sr = ScrollReveal();
         sr.reveal('.navbar', ({
-            duration: 1000,
+            duration: 800,
             origin: 'left',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.main-title', ({
-            duration: 1000,
-            origin: 'right',
+            duration: 800,
+            origin: 'left',
             distance: '100px',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.main-header', ({
-            duration: 1000,
-            origin: 'right',
-            distance: '50px',
-            opacity: 0
+            duration: 800,
+            origin: 'left',
+            distance: '80px',
+            opacity: 0.6
         }));
         sr.reveal('.jumbotron', ({
-            duration: 1000,
+            duration: 800,
             origin: 'left',
-            distance: '80px',
-            opacity: 0
+            distance: '10px',
+            opacity: 0.6
         }));
         sr.reveal('.word', ({
-            duration: 1000,
-            origin: 'top',
-            distance: '80px',
-            opacity: 0
+            duration: 800,
+            origin: 'left',
+            distance: '20px',
+            opacity: 0.6
         }));
         sr.reveal('.lead', ({
-            duration: 1000,
-            origin: 'bottom',
-            distance: '50px',
-            opacity: 0
+            duration: 800,
+            origin: 'left',
+            distance: '10px',
+            opacity: 0.6
         }));
         sr.reveal('.sub-title', ({
-            duration: 1000,
+            duration: 800,
             origin: 'left',
-            opacity: 0.8,
-            distance: '30px',
-            opacity: 0
+            distance: '10px',
+            opacity: 0.6
         }));
         sr.reveal('.showcase-left', ({
-            duration: 1000,
-            origin: 'bottom',
-            distance: '40px',
-            opacity: 0
+            duration: 800,
+            origin: 'left',
+            distance: '20px',
+            opacity: 0.6
         }));
         sr.reveal('.showcase-right', ({
-            duration: 1000,
-            origin: 'top',
+            duration: 800,
+            origin: 'left',
             opacity: 0.8,
-            distance: '40px',
-            opacity: 0
+            distance: '20px',
+            opacity: 0.6
         }));
     </script>

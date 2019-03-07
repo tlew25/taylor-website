@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Taylor Lewis</title>
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Nanum+Myeongjo|Prompt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri|Cardo" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -15,11 +15,12 @@
 
 <body>
     <!-- Fixed Top Navigation -->
-    <nav id="navbar-color"class="navbar navbar-expand-md fixed-top" style="background-color: #eee;">
+    <nav id="navbar-color" class="navbar navbar-expand-md fixed-top" style="background-color: #eee;">
         <a class="navbar-brand" href="#">Taylor Lewis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
             aria-expanded="false" aria-label="Toggle navigation">
-           <img class="nav-icon"src="https://cdn1.iconfinder.com/data/icons/basic-shaded-ui/256/down-512.png" alt="dropdown" height="60" width="60">
+            <img class="nav-icon" src="https://cdn1.iconfinder.com/data/icons/basic-shaded-ui/256/down-512.png" alt="dropdown" height="60"
+                width="60">
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -50,6 +51,7 @@
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <h1 class="display-4 text-center">Welcome</h1>
+                    <hr class="head-line">
                     <p class="lead text-center">Thank you for visiting my portfolio site!</p>
                 </div>
             </div>
@@ -70,16 +72,20 @@
                         <p class="word">McKinney, Texas</p>
                         <p class="bold-move">Education:</p>
                         <p class="word">Southern Methodist University</p>
-                        <p class="word"><em>Full Stack Web Development 2019</em></p>
+                        <p class="sml-txt">
+                            <em>Full Stack Web Development 2019</em>
+                        </p>
                         <p class="word">Texas Tech University</p>
-                        <p class="word"><em>English and Psychology 2017</em></p>
+                        <p class="sml-txt">
+                            <em>English and Psychology 2017</em>
+                        </p>
                         <p class="bold-move">Background:</p>
-                        <p class="word">My first love was writing stories, poems, and all different genres of literature - I enjoy being in a creative state of mind.
-                            I found a new passion in coding after graduating from Texas Tech University with a Bachelors in English Literature
-                            in 2017.</p>
-                        <p class="word">In order to get into the development field, I took an intensive 24-week SMU Global Program dedicated to designing and building
-                            web applications. Skills learned consisted of HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB,
-                            Express, Handlebars JS, and React Js.</p>
+                        <p class="word">My first love was writing stories, poems, and all different genres of literature - I enjoy being
+                            in a creative state of mind. I found a new passion in coding after graduating from Texas Tech
+                            University with a Bachelors in English Literature in 2017.</p>
+                        <p class="word">In order to get into the development field, I took an intensive 24-week SMU Global Program dedicated
+                            to designing and building web applications. Skills learned consisted of HTML5, CSS3, Javascript,
+                            JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handlebars JS, and React Js.</p>
                         <p class="word">Below you will find all my creations and team projects from class.</p>
                     </div>
                 </div>
@@ -182,86 +188,85 @@
     <script>
         window.sr = ScrollReveal();
         sr.reveal('.navbar', ({
-            duration: 1000,
+            duration: 800,
             origin: 'left',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.main-title', ({
-            duration: 1000,
+            duration: 800,
             origin: 'left',
             distance: '20px',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.main-header', ({
-            duration: 1000,
+            duration: 800,
             origin: 'bottom',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.jumbotron', ({
-            duration: 1000,
-            origin: 'bottom',
-            opacity: 0
+            duration: 800,
+            origin: 'left',
+            opacity: 0.6
         }));
         sr.reveal('.word', ({
-            duration: 1000,
+            duration: 800,
             origin: 'left',
-            distance: '20px',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.lead', ({
-            duration: 1000,
-            origin: 'bottom',
+            duration: 800,
+            origin: 'left',
             distance: '25px',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.sub-title', ({
-            duration: 1000,
+            duration: 800,
             origin: 'left',
             distance: '15px',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.showcase-left', ({
-            duration: 1000,
+            duration: 800,
             origin: 'left',
             distance: '10px',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.showcase-right', ({
-            duration: 1000,
+            duration: 800,
             origin: 'right',
-            opacity: 0.8,
+            opacity: 0.6,
             distance: '10px',
             opacity: 0
         }));
         sr.reveal('.tools', ({
-            duration: 1000,
+            duration: 800,
             origin: 'right',
             distance: '30px',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.btn', ({
-            duration: 1000,
+            duration: 800,
             origin: 'right',
             distance: '10px',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.bold-move', ({
-            duration: 1000,
+            duration: 800,
             origin: 'right',
             distance: '20px',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.media-image', ({
-            duration: 1000,
+            duration: 800,
             origin: 'right',
             distance: '20px',
-            opacity: 0
+            opacity: 0.6
         }));
         sr.reveal('.text-right', ({
-            duration: 1000,
+            duration: 800,
             origin: 'left',
             distance: '20px',
-            opacity: 0
+            opacity: 0.6
         }));
     </script>
 </body>
