@@ -130,10 +130,10 @@ h3 {
   margin-top: 270px;
   margin-bottom: 300px;
   border-radius: 3px;
-  max-height: 85%;
-  max-width: 84%;
+  max-height: 50%;
+  max-width: 100%;
   background-image: url("https://www.pngarts.com/files/1/Abstract-PNG-High-Quality-Image.png");
-  background-size: 80%;
+  background-size: 85%;
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -280,4 +280,5 @@ label {
   cursor: pointer;
   animation: shake 1s;
   animation-iteration-count: infinite;
+  text-decoration: none;
 }
