@@ -75,6 +75,9 @@ footer {
   margin-top: -2%;
   margin-bottom: 2%;
 }
+#head-logo{
+margin-top: 5%;
+}
 .main-title {
   text-align: center;
   font-size: 25pt;
@@ -83,7 +86,7 @@ footer {
 .main-header {
   background-image: url("https://ya-webdesign.com/images/circuit-png-4.png");
   background-origin: bottom;
-  background-size: 140px;
+  background-size: 20%;
   background-repeat: no-repeat;
   text-align: center;
   font-size: 30pt;
