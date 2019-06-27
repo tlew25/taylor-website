@@ -1,6 +1,6 @@
 body {
   margin-top: 130px;
-  background-color: #34495e;
+  background-color: #52956D;
 }
 #showcase .showcase-right {
   margin-top: 60px;
@@ -42,7 +42,7 @@ body {
 footer {
   padding: 30px;
   background-color: #eee;
-  color: #34495e;
+  color: #52956D;
 }
 .row {
   margin-top: 50px;
@@ -87,7 +87,7 @@ footer {
   background-repeat: no-repeat;
   text-align: center;
   font-size: 30pt;
-  color: #34495e;
+  color: #52956D;
   font-family: "Cardo", serif;
 }
 h2,
@@ -101,18 +101,18 @@ h3 {
 .navbar-brand {
   font-family: "Cardo", serif;
   font-size: 28pt;
-  color: #34495e;
+  color: #52956D;
   text-decoration: none;
 }
 .navbar-brand:hover {
   font-family: "Cardo", serif;
   font-size: 28pt;
-  color: #34495e;
+  color: #52956D;
   text-decoration: none;
 }
 .display-4 {
   font-family: "Cardo", serif;
-  color: #34495e;
+  color: #52956D;
   font-size: 45pt;
 }
 #navbar-color {
@@ -121,7 +121,7 @@ h3 {
 }
 #navbar-font {
   font-family: "Amiri", serif;
-  color: #34495e;
+  color: #52956D;
   font-size: 16pt;
 }
 .jumbotron {
@@ -177,16 +177,16 @@ h6 {
   font-family: "Cardo", serif;
 }
 .line {
-  background-color: #34495e;
+  background-color: #52956D;
 }
 .head-line {
-  background-color: #34495e;
+  background-color: #52956D;
   margin-bottom: 25%;
   width: 50%;
 }
 .sub-title {
-  border-top: 5px solid #34495e;
-  color: #34495e;
+  border-top: 5px solid #52956D;
+  color: #52956D;
 }
 span {
   color: #353a3f;
